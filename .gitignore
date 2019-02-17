@@ -1,0 +1,16 @@
+# OSX:
+
+.DS_Store
+
+# Node.js:
+
+node_modules
+yarn-error.log
+
+# Python:
+
+*.pyc
+
+# Emacs:
+
+*~

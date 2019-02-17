@@ -1,0 +1,16 @@
+{
+    "name": "js-playground",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "*"
+        ],
+        "nohoist": [
+            "**/jsc-android",
+            "**/jsc-android/**",
+            "**/*react-native*",
+            "**/*react-native*/**"
+        ]
+    }
+}
